@@ -1,0 +1,13 @@
+{
+    "appId":"io.ionic.starter",
+    "appName": "academyLogin",
+    "webDir": "www",
+    "bundleWebRuntime": false,
+    "plugins":{
+        "GoogleAuth":{
+            "scopes":["profile", "email"],
+            "serverClientId": "282453046669-q0rq4dvbvcl04vtlf8c8gsqup6oeou6p.apps.googleusercontent.com",
+            "forceCodeForRefreshToken": true
+        }
+    }
+}
